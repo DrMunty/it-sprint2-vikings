@@ -51,6 +51,12 @@ export class War {
         if (this.saxonArmy = []){
             return "Vikings have won the war of the century!"
         }
+        else if (this.vikingArmy = []){
+            return "Saxons have fought for their lives and survive another day..."
+        }
+        else {
+            return "Vikings and Saxons are still in the thick of battle."
+        }
     }
 
 
